@@ -1,0 +1,31 @@
+﻿{
+  "CompanyName": "Ngt",
+  "ProjectName": "Center",
+  "ProjectType": "Angular",
+  "ProjectVersion":"v8.7.0",
+  "ApplicationAreaName": "App",
+  "LicenseCode": "LicenseCodePlaceHolderToReplace",
+  "AngularSrcPath": "\\..\\..\\angular\\src\\",
+  "AngularMergedSrcPath": "\\..\\src\\Ngt.Center.Web.Host\\src\\",
+  "CoreSrcPath": "\\..\\src\\",
+  "FileLocations":{
+	"DbContext" : "Ngt.Center.EntityFrameworkCore\\EntityFrameworkCore\\CenterDbContext.cs",
+	"CustomDtoMapper" : "Ngt.Center.Application\\CustomDtoMapper.cs",
+	"AppAuthorizationProvider" : "Ngt.Center.Core\\Authorization\\AppAuthorizationProvider.cs",
+	"EntityHistoryHelper" : "Ngt.Center.Core\\EntityHistory\\EntityHistoryHelper.cs",
+	"AppPermissions" : "Ngt.Center.Core\\Authorization\\AppPermissions.cs",
+	"LocalizationFile" : "Ngt.Center.Core\\Localization\\Center\\Center.xml",
+	"EntityFrameWorkProjectFolder" : "Ngt.Center.EntityFrameworkCore",
+	"Mvc":{
+		"AppNavigationProvider" : "Ngt.Center.Web.Mvc\\Areas\\App\\Startup\\AppNavigationProvider.cs",
+		"AppPageNames" : "Ngt.Center.Web.Mvc\\Areas\\App\\Startup\\AppPageNames.cs",
+		"BundleConfig" : "Ngt.Center.Web.Mvc\\bundles.json"
+	},
+	"Angular":{ 
+		"AppNavigationService" : "app\\shared\\layout\\nav\\app-navigation.service.ts",
+		"ServiceProxies" : "shared\\service-proxies\\service-proxy.module.ts",
+		"Module" : "app\\main\\main.module.ts",
+		"RoutingModule" : "app\\main\\main-routing.module.ts"
+	}
+  }
+}
